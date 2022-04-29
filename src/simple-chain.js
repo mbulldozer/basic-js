@@ -21,7 +21,7 @@ const chainMaker = {
             return this;
         } else {
             this.chain = [];
-            throw new NotImplementedError('You can\'t remove incorrect link!');
+            throw new Error('You can\'t remove incorrect link!');
         }
 
         // remove line with error and write your code here

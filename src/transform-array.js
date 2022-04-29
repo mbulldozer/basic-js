@@ -62,7 +62,7 @@ function transform(arr) {
         });
         return copy;
     } else {
-        throw new NotImplementedError('\'arr\' parameter must be an instance of the Array!');
+        throw new Error('\'arr\' parameter must be an instance of the Array!');
     }
     // remove line with error and write your code here
 }
